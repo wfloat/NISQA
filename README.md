@@ -1,5 +1,10 @@
 # NISQA: Speech Quality and Naturalness Assessment
 
+## WFLOAT MODIFICATIONS
+- Wrap NISQA with FastAPI.
+- TODO: Make sure using the provided weights don't violate the license.
+## END
+
 *+++ News: The NISQA model has recently been updated to NISQA v2.0. The new version offers multidimensional predictions with higher accuracy and allows for training and finetuning the model.*
 
 **Speech Quality Prediction:**   
