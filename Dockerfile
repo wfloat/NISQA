@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 RUN conda env create -f env.yml
-# RUN conda activate nisqa
+CMD ["conda", "run", "-n", "nisqa", "python", "server.py"]
 
 # SHELL ["conda", "run", "-n", "nisqa", "/bin/bash", "-c"]
 # RUN echo "source activate nisqa" > ~/.bashrc
